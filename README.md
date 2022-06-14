@@ -16,7 +16,7 @@ Further the folder `./data` should contain the subfolders
 
 ### Installation
 
-The code is compatible with python >=3.10, additinal dependencies
+The code is compatible with python >=3.10, additional dependencies
 are listed in `requrements.txt`, to install them run:
 
     pip install -r requrements.txt
@@ -25,7 +25,8 @@ in the root folder of this project.
 
 ## Workflow
 
-I'm well aware of sklearn's [pipelines](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) and would use them virtually everytime, I find them not to be ideal for demonstrating purposes, so in this project they will only come into play in the hyperparameter tuning part in [Hyperparam_Tuning.ipynb](Hyperparam_Tuning.ipynb).
+I'm well aware of sklearn's [pipelines](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) and would use them virtually every time.
+But I find them not to be ideal for demonstrating purposes, so in this project they will only come into play in the hyper-parameter tuning part in [Hyperparam_Tuning.ipynb](Hyperparam_Tuning.ipynb).
 
 The notebooks should be run in the following order:
 
