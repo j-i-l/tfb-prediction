@@ -25,8 +25,8 @@ in the root folder of this project.
 
 ## Workflow
 
-I'm well aware of sklearn's [pipelines](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) and would use them virtually every time.
-But I find them not to be ideal for demonstrating purposes, so in this project they will only come into play in the hyper-parameter tuning part in [Hyperparam_Tuning.ipynb](Hyperparam_Tuning.ipynb).
+sklearn's [pipelines](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) are a great tool to condense an analysis and I would use them in most cases.
+However, I find them not to be ideal for demonstrating purposes, so in this project they will only come into play in the hyper-parameter tuning part in [Hyperparam_Tuning.ipynb](Hyperparam_Tuning.ipynb).
 
 The notebooks should be run in the following order:
 
@@ -35,3 +35,5 @@ The notebooks should be run in the following order:
 - [Feature_Engineering.ipynb](Feature_Engineering.ipynb)
 - [Model_Selection.ipynb](Model_Selection.ipynb)
 - [Hyperparam_Tuning.ipynb](Hyperparam_Tuning.ipynb)
+
+**Note:** The [Hyperparam_Tuning.ipynb](Hyperparam_Tuning.ipynb) includes feature engineering into a pipeline so it can work directly with the cleaned data generated in [Feature_Engineering.ipynb](Feature_Engineering.ipynb).
