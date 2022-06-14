@@ -10,3 +10,7 @@ data_header = ['genome', 'chrom', 'chrom_start', 'chrom_stop', 'name', 'strength
 cleanded_data = os.path.join(interim_data_path, 'cleaned.p')
 
 kmers_data = os.path.join(engineered_data_path, 'labeled_kmers.p')
+
+# See Feature_Engineering.ipynb for details:
+kmer_size = 5
+ngram_nbr = 30
