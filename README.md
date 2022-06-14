@@ -23,3 +23,13 @@ are listed in `requrements.txt`, to install them run:
    
 in the root folder of this project.
 
+## Workflow
+
+I'm well aware of sklearn's [pipelines](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) and would use them virtually everytime, I find them not to be ideal for demonstrating puposes, so in this project they will only enter into play in the hyperparameter tuning part at the very end.
+
+The notebooks should be run in the following order:
+
+- [Intro.ipynb](./Intro.ipynb)
+- [Processing_and_Cleaning.ipynb](Processing_and_Cleaning.ipynb)
+- [Feature_Engineering.ipynb](Feature_Engineering.ipynb)
+- [Model_Selection.ipynb](Model_Selection.ipynb)

@@ -11,6 +11,8 @@ cleanded_data = os.path.join(interim_data_path, 'cleaned.p')
 
 kmers_data = os.path.join(engineered_data_path, 'labeled_kmers.p')
 
+random_state = 12
+
 # See Feature_Engineering.ipynb for details:
 kmer_size = 5
 ngram_nbr = 30
