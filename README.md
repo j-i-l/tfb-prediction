@@ -25,7 +25,7 @@ in the root folder of this project.
 
 ## Workflow
 
-I'm well aware of sklearn's [pipelines](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) and would use them virtually everytime, I find them not to be ideal for demonstrating puposes, so in this project they will only enter into play in the hyperparameter tuning part at the very end.
+I'm well aware of sklearn's [pipelines](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) and would use them virtually everytime, I find them not to be ideal for demonstrating purposes, so in this project they will only come into play in the hyperparameter tuning part in [Hyperparam_Tuning.ipynb](Hyperparam_Tuning.ipynb).
 
 The notebooks should be run in the following order:
 
@@ -33,3 +33,4 @@ The notebooks should be run in the following order:
 - [Processing_and_Cleaning.ipynb](Processing_and_Cleaning.ipynb)
 - [Feature_Engineering.ipynb](Feature_Engineering.ipynb)
 - [Model_Selection.ipynb](Model_Selection.ipynb)
+- [Hyperparam_Tuning.ipynb](Hyperparam_Tuning.ipynb)
