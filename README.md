@@ -19,7 +19,7 @@ Further the folder `./data` should contain the subfolders
 The code is compatible with python >=3.10, additinal dependencies
 are listed in `requrements.txt`, to install them run:
 
-   pip install -r requrements.txt
+    pip install -r requrements.txt
    
 in the root folder of this project.
 

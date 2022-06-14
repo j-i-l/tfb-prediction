@@ -8,3 +8,5 @@ control_seqs = os.path.join(data_path, 'shuffled_data.txt')
 data_header = ['genome', 'chrom', 'chrom_start', 'chrom_stop', 'name', 'strength', 'orientation', 'sequence']
 
 cleanded_data = os.path.join(interim_data_path, 'cleaned.p')
+
+kmers_data = os.path.join(engineered_data_path, 'labeled_kmers.p')
