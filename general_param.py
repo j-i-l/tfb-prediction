@@ -15,4 +15,4 @@ random_state = 12
 
 # See Feature_Engineering.ipynb for details:
 kmer_size = 5
-ngram_nbr = 30
+ngram_nbr = 6
