@@ -17,9 +17,9 @@ Further the folder `./data` should contain the subfolders
 ### Installation
 
 The code is compatible with python >=3.10, additional dependencies
-are listed in `requrements.txt`, to install them run:
+are listed in `requirements.txt`, to install them run:
 
-    pip install -r requrements.txt
+    pip install -r requirements.txt
    
 in the root folder of this project.
 
@@ -36,4 +36,4 @@ The notebooks should be run in the following order:
 - [Model_Selection.ipynb](Model_Selection.ipynb): Performs a basic screening over some potential classifiers
 - [Hyperparam_Tuning.ipynb](Hyperparam_Tuning.ipynb): Performs hyper-parameter tuning, including some feature-engineering parameter, by cross-validating ml pipelines
 
-**Note:** The [Hyperparam_Tuning.ipynb](Hyperparam_Tuning.ipynb) includes feature engineering into a pipeline so it can work directly with the cleaned data generated in [Feature_Engineering.ipynb](Feature_Engineering.ipynb).
+**Note:** The [Hyperparam_Tuning.ipynb](Hyperparam_Tuning.ipynb) includes feature engineering into a pipeline so it can work directly with the cleaned data generated in [Processing_and_Cleaning.ipynb](Processing_and_Cleaning.ipynb).
